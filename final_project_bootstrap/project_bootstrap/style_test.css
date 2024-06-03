@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+#discount{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+    
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    
+    -webkit-background-size: cover ;
+    background-size: cover;
+}
+   /* chat starts */
+.nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+
+
